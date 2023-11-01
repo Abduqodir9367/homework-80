@@ -1,0 +1,30 @@
+header {
+  background: #dc3545;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      display: flex;
+      align-items: center;
+      column-gap: 3px;
+    
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    }
+  }
+  padding: 18px 32px;
+}
